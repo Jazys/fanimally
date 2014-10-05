@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:scrollbars="none" >
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_left_add_animal"
+                        android:layout_weight="1"
+                        android:text="@string/usage_name_lib"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textSize="@dimen/text_size_add_animal" />
+
+                    <EditText
+                        android:id="@+id/editTextUsageName"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:textSize="@dimen/text_size_add_animal" >
+                    </EditText>
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_left_add_animal"
+                        android:layout_weight="1"
+                        android:text="@string/birth_date_lib"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textSize="@dimen/text_size_add_animal" />
+
+                    <EditText
+                        android:id="@+id/editTextBirthDate"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.75"
+                        android:ems="10"
+                        android:textSize="@dimen/text_size_add_animal" >
+                    </EditText>
+
+                    <ImageButton
+                        android:id="@+id/imageButtonCalencar"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.25"
+                        android:src="@drawable/calendar" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_left_add_animal"
+                        android:layout_weight="1"
+                        android:text="@string/race_lib"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textSize="@dimen/text_size_add_animal" />
+
+                    <EditText
+                        android:id="@+id/editTextRace"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:textSize="@dimen/text_size_add_animal" >
+                    </EditText>
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_left_add_animal"
+                        android:layout_weight="1"
+                        android:text="@string/robe_lib"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textSize="@dimen/text_size_add_animal" />
+
+                    <EditText
+                        android:id="@+id/editTextRobe"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:textSize="@dimen/text_size_add_animal" >
+                    </EditText>
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_left_add_animal"
+                        android:layout_weight="1"
+                        android:text="@string/tatouage_lib"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textSize="@dimen/text_size_add_animal" />
+
+                    <EditText
+                        android:id="@+id/editTextTatouage"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:textSize="@dimen/text_size_add_animal" >
+                    </EditText>
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow9"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_left_add_animal"
+                        android:layout_weight="1"
+                        android:text="@string/type_lib"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textSize="@dimen/text_size_add_animal" />
+
+                    <Spinner
+                        android:id="@+id/spinnerType"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <CheckBox
+                        android:id="@+id/checkBoxMale"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/male_lib"
+                        android:textSize="@dimen/text_size_add_animal" />
+
+                    <CheckBox
+                        android:id="@+id/checkBoxFemale"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/female_lib"
+                        android:textSize="@dimen/text_size_add_animal" />
+                </LinearLayout>
+            </TableRow>
+            
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <CheckBox
+                        android:id="@+id/checkBoxAssurance"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/assurance"
+                        android:textSize="@dimen/text_size_add_animal" />
+
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_left_add_animal"
+                        android:layout_weight="1"
+                        android:text="@string/photo_lib"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textSize="@dimen/text_size_add_animal" />
+
+                    <Button
+                        android:id="@+id/btn_add_take_photo"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/take_photo_lib"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </TableRow>
+            
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_gravity="center"
+                android:id="@+id/linearPhotoAnimal" >
+
+                <ImageView
+                    android:id="@+id/imageViewPhotoAnimal"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"                  
+                    android:src="@drawable/ic_launcher"
+                    android:visibility="visible" />
+            </LinearLayout>
+            </TableRow>
+            
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/phantomBouton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/save_lib"
+                    android:textSize="14sp"
+                    android:visibility="invisible" />
+
+                <Button
+                    android:id="@+id/btn_save_animal"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/save_lib"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </TableLayout>
+    </ScrollView>
+
+</LinearLayout>

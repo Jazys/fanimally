@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">faminally</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="gere_faminally">Gérer sa faminally</string>
+    <string name="mes_albums">Mes albums</string>
+    <string name="ses_amis">Les amis Faminally</string>
+    <string name="mon_veto">Mon Véto</string>
+    <string name="usage_name_lib">Nom d\'usage :</string>
+    <string name="birth_date_lib">Date de naissance :</string>
+    <string name="race_lib">Race : </string>
+    <string name="robe_lib">Robe : </string>
+    <string name="tatouage_lib">Tatouage/puce : </string>
+    <string name="male_lib">Male </string>
+    <string name="female_lib">Femelle </string>
+    <string name="photo_lib">Image/Photo : </string>
+    <string name="type_lib">Type : </string>
+    <string name="take_photo_lib">Prendre une photo </string>
+    <string name="save_lib">Enregistrer l\'animal </string>
+    <string name="chien">Chien </string>
+    <string name="chat">Chat</string>
+    <string name="oiseau">Oiseau </string>
+    <string name="lapin">Lapin </string>
+    <string name="cochon_inde">Cochon d\'inde </string>
+    <string name="hamster">Hamster </string>
+    <string name="rat">Rat </string>
+    <string name="serpent">Serpent </string>
+    <string name="assurance">Assurance </string>
+    <string name="rappelwidget">Rappel :  </string>
+    <string name="infowidget">Infos :   </string>
+    <string name="fanimallybtnwidget">Ma fanimally </string>
+    <string name="urgencewidget">Urgence  </string>
+    <string name="patteWidget">Patte moi  </string>
+    <string name="selectAnimal">Séléctionner un animal : </string>
+    <string name="selectDate">Date Rdv : </string>
+    <string name="comment">Commentaire : </string>
+    <string name="btn_save_rdv">Créer le RDV </string>
+    <string name="ajouter_lib">Ajouter </string>
+    <string name="voir_lib">Voir </string>
+    <string name="poids_lib">Saisir poids : </string>
+    <string name="date_mesure_poids_lib">Date mesure : </string>
+    <string name="btn_poids">Valider poids </string>
+    <string name="afficher_creation_poids">Poids enregistré </string>
+    <string name="callVeto">Appeler</string>
+    <string name="validate">Valider</string>
+    <string name="nomveto">Nom : </string>
+    <string name="adresseVeto">Adresse : </string>
+    <string name="telveto">Telephone : </string>
+
+    <bool name="isTablet">false</bool>
+
+    <string name="retour_btn">Retour</string>
+    <string name="photo_btn">Prendre la photo</string>
+
+    <string-array name="type_animal">
+        <item>@string/chien</item>
+        <item>@string/chat</item>
+        <item>@string/oiseau</item>
+        <item>@string/lapin</item>
+        <item>@string/cochon_inde</item>
+        <item>@string/hamster</item>
+        <item>@string/rat</item>
+        <item>@string/serpent</item>
+    </string-array>
+
+    <string name="animalItem">Mes animaux </string>
+    <string name="vaccinItem">Vaccins </string>
+    <string name="traitementItem">Traitements </string>
+    <string name="interventionItem">Interventions </string>
+    <string name="rdvItem">Rendez-vous </string>
+    <string name="courbeItem">Courbe </string>
+    <string name="reproductionItem">Evènements </string>
+    <string name="vetoItem">Mon vétérinaire </string>
+    <string name="coutItem">Coût </string>
+    <string name="confItem">Configurations </string>
+    <string name="type_evt_chaleur">Chaleur </string>
+    <string name="type_evt_operation">Piqure </string>
+    <string name="type_evt_piqure">Opération </string>
+    <string name="type_evt_analyse">Analyse </string>
+    <string name="supprimer_animal">Supprimer l\'animal</string>
+    <string name="supprimer_animal_text">Etes vous sur de vouloir supprimer l\'animal </string>
+    <string name="supprimer_animal_oui">Oui</string>
+    <string name="supprimer_animal_non">Non</string>
+
+</resources>
